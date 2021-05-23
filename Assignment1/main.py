@@ -1,4 +1,4 @@
-from Crypto.Hash import SHA256
+from Crypto.Hash import SHA256 #installed pycrypto library through pip
 import time
 
 h=SHA256.new()
