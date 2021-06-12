@@ -99,5 +99,5 @@ contract Loan is MetaCoin {
             return true;
         }
         return false;
-	}
+    }
 }
