@@ -86,7 +86,7 @@ contract Loan is MetaCoin {
         return getBalance(Owner);    
 				// use the getBalance function of MetaCoin contract to view the Balance of the contract Owner.
 				// hint: how do you access the functions / variables of the parent class in your favorite programming language? It is similar to that in solidity as well!
-	}
+    }
     function viewDues(address add) public view isOwner returns(uint256){
 	    return loans[add];
     }
